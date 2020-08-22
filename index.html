@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bosh sahifa</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<style type="text/css">
+	.container
+	{
+		max-width: 1366px;
+		border: 0px solid red;
+		padding: 0px;
+//		height: 3400px;
+	}
+#til
+{
+	padding-left: 80px;
+	background-image: linear-gradient(to top,#b5388b,#96166b);
+	height:38px;
+	border: 0px solid red;
+}
+.a1 p
+{
+	margin-top: 6px;
+float: left;
+text-indent: 20px;
+font-size: 14px;
+}
+.a1 p:hover
+{
+	color: white;
+}
+
+#til ul
+{
+	margin-top: 6px;
+		margin-left: 200px;
+}
+#til ul li
+{
+	float: left;
+list-style: none;
+}
+#til ul li a
+{
+	color: #000000;
+	margin-left: 20px;
+	text-decoration: none;
+}
+#til ul li a:hover
+{
+	color: white;
+}
+
+#banner
+{
+	height: 500px;
+	background-image: url("images/banner1.png");
+	background-repeat: no-repeat;
+}
+#logo
+{
+	border: 0px solid red;
+	float: left;
+	margin-left:200px;
+margin-top: 40px;
+}
+#logo1
+{
+	border: 0px solid red;
+	float: left;
+	margin-top: 165px;
+}
+#logo1 p
+{
+padding: -20px;
+line-height: 0px;
+color: #9b114a;
+font-size: 18px;
+}
+#logo1 h6
+{
+	line-height: 0px;
+	font-size: 18px;
+	color: #9b114a;
+padding: -20px;
+}
+
+
+#logo2
+{
+	margin-top: 50px;
+	border: 0px solid red;
+	float: right;
+	color: #8f0808;
+margin-right: 200px;
+font-family: Edwardian script ITC;
+font-size: 85px;
+
+}
+.menu
+{
+	border-radius: 6px;
+	//position: absolute;
+	//margin:200px auto;
+	margin-top: 200px;
+	margin-left: -480px;
+	background-image: linear-gradient(to top,#fb1468,#da0a60);
+	width: 1166px;
+}
+.manu ul
+{
+	background-image: linear-gradient(to top,#fb1468,#da0a60);
+}
+.menu ul li a
+{
+	color: white;
+}
+.menu ul li:hover a
+{
+	color: black;
+}
+
+.caru
+{
+  //position: absolute;
+	width: 1166px;
+	//margin: -260px auto;
+	margin:0px auto;
+}
+#naqsh
+{
+	background-color: #f4ebec;
+background-image:  url("images/naqsh.png");  
+background-repeat:  no-repeat ; 
+height:  721px;
+border: 1px solid #f4ebec;
+}
+#img img
+{
+	margin-left: 30px;
+}
+.clear
+{
+	clear: both;
+}
+#naqsh1
+{
+	width: 1166px;
+	border: 0px solid red;
+	height: 400px;
+margin: 0px auto;
+margin-top: 300px;
+}
+.naqsh2 p
+{
+	text-align: justify;
+	text-indent: 20px;
+	width: 530px;
+	line-height: 26px;
+font-size: 15pt;
+}
+.naqsh3
+{
+	color: #fb1468;
+	text-align: center;
+}
+.naqsh3 img
+{
+	margin-top: 20px;
+}
+#yangilik
+{
+	height: 440px;
+	border: 0px solid red;
+}
+.yy
+{
+	margin: 0px auto;
+	width: 1166px;
+}
+#yangilik h3
+{
+	line-height: 50px;
+	text-align: center;
+	color: #fb1468;
+
+}
+#yangilik a h5
+{
+	line-height: 60px;
+	text-align: center;
+	color: #fb1468;
+
+}
+#yangilik span
+{
+	font-weight: 900;
+}
+
+.y1 p
+{
+	font-size: 13pt;
+}
+.y1 a
+{
+	color: #fb1468;
+	float: right;
+	line-height: 0px;
+}
+#savol
+{
+	height: 376px;
+	background-color: #f4ebec;
+background-image: url("images/naqsh.png");
+background-repeat: no-repeat;
+background-position: bottom;
+}
+#savol h3
+{
+	color: #fb1468;
+	text-align: center;
+	line-height: 40px;
+}
+
+#savol span, .savol1 span
+{
+	color: #fb1468;
+	font-weight: 900;
+}
+#savol .savol1 p
+{
+	font-size: 13pt;
+	width: 250px;
+}
+.savoll
+{
+	margin-top: 20px;
+	border: 0px solid red;
+	//margin-left: 80px;
+	
+}
+.savol1 a
+{
+	float: right;
+	color: #fb1468;
+}
+#aa
+{
+	text-align: center;
+	float: none;
+line-height: 60px;
+ margin-left: -150px;
+}
+.savol2 input,.foo3 input
+{
+	border-radius: 20px;
+	background-color: #ebdadc;
+	width: 200px;
+}
+.savol2 input[type="submit"],.foo3 input[type="submit"]
+{
+	width: 130px;
+	background-color: #f4ebec;
+	border: 2px solid #fb1468;
+}
+#rasmlar
+{
+	margin-top: 20px;
+	text-align: center;
+	color: #fb1468;
+}
+#rasmlar span
+{
+	font-weight: 900;
+}
+#rasmlar img
+{
+ width: 220px;
+	border: 2px solid #fb1468;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+#footer
+{
+	height: 302px;
+	background-color: #640845;
+color: white;
+}
+#footer h1
+{
+	font-family: Edwardian script ITC;
+font-size: 70px;
+}
+#footer span
+{
+	color: white;
+	font-weight: 900;
+}
+.foo1 img
+{
+	margin-top: 5px;
+	float: left;
+	padding-right: 10px;
+}
+.foo1 p
+{
+	color: #b5aab1;
+	line-height:20px;
+}
+.foo2
+{
+	margin-top: 20px;
+}
+.foo2 a
+{
+	color: #b5aab1;
+}
+.foo2 a:hover
+{
+	color: white;
+}
+</style>
+
+
+</head>
+<body>
+<div class="container">
+	<div id="til">
+<div class="row">
+	<div class="col-lg-6 a1">
+		<p>Mobil ko‘rinish</p>
+		<p>Maxsus imkoniyatlar</p>
+		<p>Davlat ramzlari</p>
+	</div>
+	<div class="col-lg-6 a1">
+<ul>
+	<li>
+		<a href="#">рус</a>
+		</li>
+		<li>
+		<a href="#">o'zb</a>
+		</li>
+		<li>
+		<a href="#">eng</a>
+	</li>
+</ul>
+	</div>
+</div>		
+	</div>
+<!-- TIL TUGADI-->
+<div id="banner">
+<div id="logo">
+<img src="images/logo.png">
+</div>	
+<div id="logo1">
+	<p>Farg'ona viloyati hokimligi</p>
+	<h6>Hotin-qizlar qo'mitasi</h6></div>
+	<div id="logo2"><p>Fargona Ayoli</p></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="menu">
+	<ul class="nav justify-content-center nav nav-tabs" id="myTab" role="tablist>
+  <li class="nav-item">
+  <li class="nav-item">
+    <a class="nav-link " href="#">BOSH SAHIFA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">QO'MITA HAQIDA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">TADBIRLAR</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">HUJJATLAR</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">DAVLAT DASTURLARI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">ZULFIYA QIZLARI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">GALEREYA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">GO'ZAL FARG'ONA</a>
+  </li>
+</ul>
+</div>
+
+	</div>
+</div>
+
+
+
+<div class="caru">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/navbar2.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/navbar3.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/navbar1.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div id="img" style="margin-left: 250px; margin-top: -30px;">
+<a href="#">	<img src="images/yangilik.png"> </a>
+	<a href="#"> <img src="images/savol_javob.png"></a>
+	 <a href="#"><img src="images/oydin.png"></a>
+</div>
+
+</div>
+<!--banner tugadi-->
+<div id="naqsh">
+<div class="clear"></div>
+<div id="naqsh1">
+<div class="row">
+	<div class="col-lg-6 naqsh2">
+		<h3 style="color: #fb1468;">&nbsp &nbsp  Qo'mita haqida</h3>
+		<p>	1991-yil 27-dekabrda O‘zbekiston xotin-qizlarining Termiz konferentsiyasida O‘zbekiston Xotin-qizlar qo‘mitasi tashkil topdi va jamoat birlashmasi - O‘zbekiston xotin-qizlarining ixtiyoriy asosda tashkil etilgan, o‘zini o`zi boshqaradigan nodavlat notijorat tashkiloti hisoblanadi.<br>
+		&nbsp
+	1995-yil 2-mart kuni Respublika Prezidentining “O‘zbekiston Respublikasining davlat va ijtimoiy qurilishida xotin-qizlarning rolini oshirish chora-tadbirlari to‘g‘risida”gi PF-1084 sonli farmon e’lon qilindi. Farmon xotin-qizlar qo‘mitalari tizimi rivojini yangi bosqichga ko‘tardi va ayollar hayotining yanada yaxshilanishiga sharoitlar yaratdi...
+</p>
+<input type="submit" name="ok" value="Batafsil" style="width: 200px;border: 2px solid #fb1468;
+border-radius:20px;  background-color:#f4ebec;height: 40px; margin-left:150px; color: #fb1468;font-size: 15px;">
+</div>
+
+
+<div class="col-lg-6 naqsh3">
+	<img src="images/ona_bola.png">
+	<h3>2016-yil</h3>
+	<h2>SOG'LOM BOLA VA ONA YILI</h2>
+</div>
+	</div>
+</div>	
+</div>
+<!--naqsh tugadi-->
+<div id="yangilik">
+<h3><span>SO'NGI</span> YANGILIKLAR</h3>
+<div class="row yy">
+<div class="col-lg-3 y1">
+	<img src="images/y1.png">
+	<h5>Sog‘lom ona va bola yiliga bag‘ishlangan tadbir.</h5>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+<a href="#">Batafsil...</a>
+</div>
+<div class="col-lg-3 y1">
+	<img src="images/y1.png">
+	<h5>Sog‘lom ona va bola yiliga bag‘ishlangan tadbir.</h5>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+<a href="#">Batafsil...</a>
+</div>
+<div class="col-lg-3 y1">
+	<img src="images/y1.png">
+	<h5>Sog‘lom ona va bola yiliga bag‘ishlangan tadbir.</h5>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+<a href="#">Batafsil...</a>
+</div>
+<div class="col-lg-3 y1">
+	<img src="images/y1.png">
+	<h5>Sog‘lom ona va bola yiliga bag‘ishlangan tadbir.</h5>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+<a href="#">Batafsil...</a>
+</div>
+</div>
+<a href="#"><h5><span>BARCHA</span> YANGILIKLAR</h5></a>
+</div>
+<!--yangilik tugadi-->
+<div id="savol">
+<h3><span>SAVOL</span>-JAVOB</h3>
+<div class="row">
+	<div class="col-lg-5 offset-lg-1 savoll">
+<div class="row">
+	<div class="col-lg-6 savol1">
+		<h5> <span>Savol</span>: Bussiness Ledy kim?</h5>
+<p><span>Javob</span>:Lorem Ipsum is simply dummy text of the printing and typesetting industry
+<a href="#">Batafsil...</a> </p>
+	</div>
+<div class="col-lg-6 savol1">
+		<h5> <span>Savol</span>: Zulfiya mokofotini olish uchun nima qilish kerak?</h5>
+<p><span>Javob</span>:Lorem Ipsum is simply dummy text of the printing and typesetting industry
+<a href="#">Batafsil...</a> </p>
+<a id="aa" href="#"><span>BARCHA </span> SAVOL-JAVOBLAR</a>
+	</div>
+</div>
+	</div>
+
+
+<div class="col-lg-6 savol2">
+	<textarea style="width: 560px; height: 150px; border-radius: 20px;background-color: #ebdadc; margin-top: 20px;">Agar savolingiz bolsa bizga yozing...</textarea>
+<input type="text" name="ism" placeholder="ismingiz">
+<input type="email" name="fam" placeholder="e-mail">
+<input type="submit" name="ok" value="Jo'natish">
+</div>
+</div>
+</div>
+<!--savol tugadi-->
+<div id="rasmlar">
+<h3> <span>FOTO VA VIDEO </span>GALEREYA </h3>
+	<div class="row">
+		<div class="col-lg-10 offset-lg-1">
+			<img src="images/m1.png">
+<img src="images/m2.png">
+<img src="images/m3.png">
+<img src="images/m4.png">
+<br>
+<img src="images/m5.png">
+<img src="images/m6.png">
+<img src="images/m7.png">
+<img src="images/m8.png">
+
+<h5 style="line-height: 60px;"><span> BARCHA</span> MATERIALLAR</h5>
+		</div>
+			</div>
+</div>
+<!--rasmlar tugadi-->
+<div id="foydali" style="height: 196px; background-color: #f4ebec; color: #fb1468;text-align: center;">
+	<h4 style="line-height: 60px;"><span style="font-weight: 900;">FOYDALI </span>MANBAALAR</h4>
+<div class="row">
+	<div class="col-lg-10 offset-lg-1 bb">
+	<a href="#">	<img src="images/f1.png"></a>
+	<a href="#">	<img src="images/f2.png"></a>
+	<a href="#">	<img src="images/f3.png"></a>
+	<a href="#">	<img src="images/f4.png"></a>
+	<a href="#">	<img src="images/f5.png"></a>
+	<a href="#">	<img src="images/f6.png"></a>
+	</div>
+</div>
+</div>
+<!--foydali tugadi-->
+<div id="footer">
+<div class="row">
+	<div class="col-lg-1"></div>
+<div class="col-lg-4 foo1">
+	<h1>Fargona Ayoli</h1>
+<p>Farg'ona viloyati hokimligi <span>Xotin-qizlar qo'mitasi </span> </p>
+<img src="images/uycha.png">
+<p>Farg‘ona v. 150100 Farg`ona sh.<br> 
+Аlisher Navoiy 15. O‘zbekiston</p>
+<img src="images/tel_icon.png">
+<p>Tel.:&nbsp(+99873) 123-45-67<br>
+Faks:&nbsp(+99873) 123-45-67</p>
+<img src="images/message.png">
+<p>E-mail: info@fargonaayoli.uz</p>
+
+</div>
+<div class="col-lg-2 foo2">
+	<h4><span>NAVIGATSIYA</span></h4>
+<br>
+<a href="#">Bosh menyu </a><br>
+<a href="#">Qomita xaqida </a><br>
+<a href="#">Tadbirlar</a><br>
+<a href="#">Hujjatlar </a><br>
+<a href="#">Davlat dasturlari </a><br>
+<a href="#">Zulfiya qizlari</a><br>
+<a href="#">Galereya</a><br>
+<a href="#">Go'zal Fargona </a>
+
+
+
+
+
+</div>
+<div class="col-lg-4 foo3 " style="margin-top: 16px;">
+	<h4><span>BIZ BILAN</span> BOG'LANISH</h4>
+<textarea style="width: 400px; height: 150px; border-radius: 20px;background-color: #ebdadc; margin-top: 5px;">Agar savolingiz bolsa bizga yozing...</textarea>
+<input type="text" name="ism" placeholder="ismingiz">
+<input type="email" name="fam" placeholder="e-mail">
+<input type="submit" name="ok" value="Jo'natish" style="margin-top: 10px;">
+
+</div>
+<div class="col-lg-1 "></div>
+</div>
+</div>
+	<div class="ff" style="background-color: black; height: 40px;">
+		<p style="color: white; font-size: 10pt; text-align: center; line-height: 30px;">© Ba’zi huquqlar mualliflik huquqi bilan cheklangan. Sayt<span> TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI </span>FARG‘ONA FILIALI tomonidan tayyorlangan</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
